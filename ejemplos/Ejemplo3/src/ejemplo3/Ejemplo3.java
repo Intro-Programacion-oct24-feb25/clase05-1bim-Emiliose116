@@ -31,6 +31,9 @@ public class Ejemplo3 {
                     + "promedio: %.2f\n", promedio);
         } else {
             if ((promedio >= 5) && (promedio < 7.5)) {
+                /*se usa el "and" porque el problema lo requiere ya que si se 
+                usa or se vuelve verdadero sin necesidad de que las dons 
+                condiciones sean verdaderas*/
                 System.out.printf("Estudiante en suspenso con un "
                         + "promedio: %.2f\n", promedio);
             } else {
